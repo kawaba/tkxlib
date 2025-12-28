@@ -24,8 +24,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://k-webs.jp/lib/python"
-Download = "https://k-webs.jp/lib/python"
+Homepage = "https://github.com/kawaba/tkxlib"
+Download = "https://github.com/kawaba/tkxlib/archive/refs/heads/main.zip"
 
 [tool.setuptools]
 packages = ["tkxlib"]
