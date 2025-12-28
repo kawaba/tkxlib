@@ -1,0 +1,2 @@
+include README.md
+recursive-include tkxlib/img *.png

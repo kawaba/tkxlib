@@ -1,0 +1,44 @@
+# tkxlib
+
+`tkxlib` は、Pillow を利用した Tkinter 画像アニメーション用ヘルパー `disp_image` と、安全な `input()` ラッパーをまとめた `kbinput`、さらにサイコロ表示を行う `dice` を収録したライブラリです。配布物は https://k-webs.jp/python/lib/ で公開しています。
+
+## インストール方法
+
+`pyproject.toml` ベースのため、一般的な `pip` 手順で導入できます。
+
+```bash
+pip install tkxlib
+```
+
+公式ミラーから直接取得する場合は以下を利用してください。
+
+```bash
+pip install https://k-webs.jp/python/lib/tkxlib-latest.zip
+```
+
+## モジュールと公開API
+
+### `tkxlib.disp_image`
+
+- `dispImg(image_path, display_time_ms, display_mode)`
+- `dispImg_zoom(image_path)`
+- `dispImg_zoom_rotate(image_path)`
+
+これらの関数は一時的な Tkinter ウィンドウを開き、拡大・回転アニメーションを伴って指定画像を表示します。
+
+### `tkxlib.kbinput`
+
+モジュール内で定義されているヘルパーをすべて公開しています。
+`get_int`, `get_float`, `get_str`, `get_bool`, `get_list`, `get_list_int`, `get_list_float`, `get_tuple`, `get_tuple_int`, `get_tuple_float`, `get_set`, `get_set_int`, `get_set_float`, `get_dict`
+
+### `tkxlib.dice`
+
+- `dice()`
+
+`dice()` は 1〜6 の疑似乱数を生成し、対応するダイス画像を `dispImg_zoom_rotate()` でアニメーション表示したあと、出目を戻り値として返します。ゲームロジックの入力値としてそのまま利用できます。
+
+## 補足事項
+
+- 必要な Python バージョンは 3.9 以上です。
+- 画像処理のために Pillow を依存関係として利用します。
+- `tkxlib/img` 配下のアセットはパッケージデータとして同梱され、wheel / sdist いずれでも利用できます。
