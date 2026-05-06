@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m build)",
+      "Bash(python3 -m build)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(where py:*)",
+      "Bash(py -m build)",
+      "Read(//c/Users/tkawa/AppData/Local/Programs/Python//**)",
+      "Read(//c/Users/tkawa/AppData/Local/Programs/Python/**)",
+      "Bash(\"G:/_PyDev_lib/python/python.exe\" -m build)"
+    ]
+  }
+}

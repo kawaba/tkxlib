@@ -3,8 +3,12 @@ README.md
 pyproject.toml
 tkxlib/__init__.py
 tkxlib/dice.py
+tkxlib/dice.pyi
 tkxlib/disp_image.py
+tkxlib/disp_image.pyi
 tkxlib/kbinput.py
+tkxlib/kbinput.pyi
+tkxlib/py.typed
 tkxlib.egg-info/PKG-INFO
 tkxlib.egg-info/SOURCES.txt
 tkxlib.egg-info/dependency_links.txt
@@ -75,3 +79,6 @@ tkxlib/img/d-3.png
 tkxlib/img/d-4.png
 tkxlib/img/d-5.png
 tkxlib/img/d-6.png
+tkxlib/img/はずれ.png
+tkxlib/img/大当たり.png
+tkxlib/img/当たり.png

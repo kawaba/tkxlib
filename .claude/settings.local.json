@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m build)",
+      "Bash(\"G:/_PyDev_lib/python/python.exe\" -m build)"
+    ]
+  }
+}

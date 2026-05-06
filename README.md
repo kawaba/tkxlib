@@ -23,13 +23,15 @@ pip install https://k-webs.jp/python/lib/tkxlib-latest.zip
 - `dispImg(image_path, display_time_ms, display_mode)`
 - `dispImg_zoom(image_path)`
 - `dispImg_zoom_rotate(image_path)`
+- `zoom(image_path)`
+- `zoom_rotate(image_path)`
 
 これらの関数は一時的な Tkinter ウィンドウを開き、拡大・回転アニメーションを伴って指定画像を表示します。
 
 ### `tkxlib.kbinput`
 
 モジュール内で定義されているヘルパーをすべて公開しています。
-`get_int`, `get_float`, `get_str`, `get_bool`, `get_list`, `get_list_int`, `get_list_float`, `get_tuple`, `get_tuple_int`, `get_tuple_float`, `get_set`, `get_set_int`, `get_set_float`, `get_dict`
+`get_int`, `get_float`, `get_str`, `get_bool`, `get_list`, `get_list_int`, `get_list_float`, `get_tuple`, `get_tuple_int`, `get_tuple_float`, `get_set`, `get_set_int`, `get_set_float`, `get_dict`, `get_dict_int`, `get_dict_float`, `get_coordinate`
 
 ### `tkxlib.dice`
 

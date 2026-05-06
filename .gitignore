@@ -1,0 +1,10 @@
+# 除外フォルダ
+.github/
+.vscode/
+build/
+
+# Pythonプロジェクトの一般的な除外推奨
+dist/
+*.egg-info/
+__pycache__/
+*.pyc

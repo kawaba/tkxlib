@@ -1,19 +1,18 @@
 Metadata-Version: 2.4
 Name: tkxlib
-Version: 1.1.0
+Version: 2.0.1
 Summary: Tkinter image animation and keyboard input helpers
-Author: k-webs
-License: Proprietary
-Project-URL: Homepage, https://k-webs.jp/python/lib/
-Project-URL: Download, https://k-webs.jp/python/lib/
+Author-email: Takashi Kawaba <kawaba@tk-webs.com>
+License-Expression: LicenseRef-Proprietary
+Project-URL: Homepage, https://github.com/kawaba/tkxlib
+Project-URL: Download, https://github.com/kawaba/tkxlib/archive/refs/heads/main.zip
 Keywords: tkinter,image,keyboard,dice
 Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3 :: Only
-Classifier: License :: Other/Proprietary License
 Classifier: Operating System :: OS Independent
 Classifier: Topic :: Multimedia :: Graphics
-Requires-Python: >=3.9
+Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: Pillow>=10.0.0
 
@@ -42,13 +41,15 @@ pip install https://k-webs.jp/python/lib/tkxlib-latest.zip
 - `dispImg(image_path, display_time_ms, display_mode)`
 - `dispImg_zoom(image_path)`
 - `dispImg_zoom_rotate(image_path)`
+- `zoom(image_path)`
+- `zoom_rotate(image_path)`
 
 これらの関数は一時的な Tkinter ウィンドウを開き、拡大・回転アニメーションを伴って指定画像を表示します。
 
 ### `tkxlib.kbinput`
 
 モジュール内で定義されているヘルパーをすべて公開しています。
-`get_int`, `get_float`, `get_str`, `get_bool`, `get_list`, `get_list_int`, `get_list_float`, `get_tuple`, `get_tuple_int`, `get_tuple_float`, `get_set`, `get_set_int`, `get_set_float`, `get_dict`
+`get_int`, `get_float`, `get_str`, `get_bool`, `get_list`, `get_list_int`, `get_list_float`, `get_tuple`, `get_tuple_int`, `get_tuple_float`, `get_set`, `get_set_int`, `get_set_float`, `get_dict`, `get_dict_int`, `get_dict_float`, `get_coordinate`
 
 ### `tkxlib.dice`
 
