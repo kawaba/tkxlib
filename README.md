@@ -1,6 +1,6 @@
 # tkxlib
 
-`tkxlib` は、Pillow を利用した Tkinter 画像アニメーション用ヘルパー `disp_image` と、安全な `input()` ラッパーをまとめた `kbinput`、さらにサイコロ表示を行う `dice` を収録したライブラリです。配布物は [https://k-webs.jp/python/lib/](https://github.com/kawaba/tkxlib/archive/refs/heads/main.zip) で公開しています。
+`tkxlib` は、Pillow を利用した Tkinter 画像アニメーション用ヘルパー `disp_image` と、安全な `input()` ラッパーをまとめた `kbinput`、さらにサイコロ表示を行う `dice` を収録したライブラリです。配布物は [[https://k-webs.jp/python/lib/]](https://github.com/kawaba/tkxlib/archive/refs/heads/main.zip) で公開しています。
 
 ## インストール方法
 
