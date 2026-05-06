@@ -13,7 +13,7 @@ pip install tkxlib
 公式ミラーから直接取得する場合は以下を利用してください。
 
 ```bash
-pip install https://k-webs.jp/python/lib/tkxlib-latest.zip
+pip install https://k-webs.jp/lib/python/tkxlib-2.0.1-py3-none-any.whl
 ```
 
 ## モジュールと公開API
